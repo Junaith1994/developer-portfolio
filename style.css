@@ -34,3 +34,45 @@ h1 {
     border-radius: 50%;
     margin-left: 5%;
 }
+
+.middle-sec {
+    display: flex;
+    padding: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.middle-banner-1 img {
+    border: 1px  solid black;
+    border-radius: 50%;
+}
+
+.middle-banner-2 {
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.experience-item {
+    display: flex;
+    padding: 5%;
+}
+
+.experience-area {
+    box-shadow: 20px 20px 40px grey;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+#left-border-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, navy);
+    border-image-slice: 1;
+}
+
+#left-border-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(141, 60, 13), rgb(55, 167, 44));
+    border-image-slice: 1;
+}
